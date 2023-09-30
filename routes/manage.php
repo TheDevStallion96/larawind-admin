@@ -1,11 +1,10 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Manage Routes
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
@@ -14,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+Route::prefix('manage')->group(function () {
+    // Define your routes within the "manage" prefix here.
+});
